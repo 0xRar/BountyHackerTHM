@@ -36,7 +36,7 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 ## ports : 
 ```
-ftp=23 anonymous login enabled
+ftp=21 anonymous login enabled
 ssh=22 user: lin , password: RedDr4gonSynd1cat3
 ```
 
